@@ -13,12 +13,14 @@ Bandit is a series of levels that teach the fundamentals of the Linux command li
 | Level | Main topic | Writeup |
 |-------|------------|---------|
 | Level 00 | SSH connection basics | [→](./level-00/README.md) |
+| Level 01 | SSH connection basics | [→](./level-01/README.md) |
+| Level 02 | SSH connection basics | [→](./level-02/README.md) |
 
 *(Table updated as I progress through the levels)*
 
 ## 🛠️ Tools / commands covered so far
 
-`ssh`, `ls`, `cat`, `man`
+`ssh`, `whoami`, `pwd`, `ls`, `cat`, `man`
 
 *(list expanded level by level)*
 
