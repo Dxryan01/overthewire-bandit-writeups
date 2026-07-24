@@ -18,7 +18,7 @@ Bandit is a series of levels that teach the fundamentals of the Linux command li
 
 *(Table updated as I progress through the levels)*
 
-## 🛠️ Tools / commands covered so far
+## Tools / commands covered so far
 
 `ssh`, `whoami`, `pwd`, `ls`, `cat`, `man`
 
