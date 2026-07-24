@@ -1,14 +1,16 @@
 **Bandit Level 00 → Level 01**
 
-**Key Takeaway**: connecting to a remote server via SSH, specifying a non-default port.
+**Goal**: log into the Bandit server for the first time via SSH.
 
-**Command**: `ssh bandit0@bandit.labs.overthewire.org -p 2220`
+**Reasoning**: the intro page gives host, port, username and password directly — nothing to figure out yet, just applying the right SSH syntax with a non-default port.
 
-**Alternatives**: `ssh -l bandit0 bandit.labs.overthewire.org -p 2220` (same result, username passed via `-l` instead of `user@host` syntax)
+**Solution**: `ssh bandit0@bandit.labs.overthewire.org -p 2220`
 
-**File**: none — credentials for this first level are given directly on the game's intro page
+**Alternative**: `ssh -l bandit0 bandit.labs.overthewire.org -p 2220` (same result, username passed via `-l` instead of `user@host` syntax)
 
-**Note**: most SSH connections I'd done before were on default setups (no port specified). Worth remembering that `-p` is needed whenever the server doesn't use port 22.
+**Lesson**: don't forget `-p` when a server doesn't run SSH on the default port 22 — easy to overlook if you're used to default setups.
 
 ---
 🔒 Password not disclosed — try it yourself on [overthewire.org](https://overthewire.org/wargames/bandit/)
+
+
