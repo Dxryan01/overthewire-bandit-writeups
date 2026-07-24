@@ -1,14 +1,14 @@
-# 🏴 OverTheWire: Bandit — Writeups
+# OverTheWire: Bandit — Writeups
 
 Personal writeups for the [Bandit](https://overthewire.org/wargames/bandit/) wargame by OverTheWire, written as part of my ongoing cybersecurity self-study (1st-year CS student, cybersecurity track, IFRI/UAC).
 
-> ⚠️ Out of respect for the challenge, passwords/flags found are not published here. The goal is to document the reasoning and tools used, not to spoil the solution for others.
+> Out of respect for the challenge, passwords/flags found are not published here. The goal is to document the reasoning and tools used, not to spoil the solution for others.
 
-## 📖 About
+## About
 
 Bandit is a series of levels that teach the fundamentals of the Linux command line (permissions, file searching, encoding, basic networking, etc.). Each writeup here documents: the level's objective, the concepts practiced, the approach taken, and a short personal takeaway.
 
-## 🗂️ Levels
+## Levels
 
 | Level | Main topic | Writeup |
 |-------|------------|---------|
@@ -24,7 +24,7 @@ Bandit is a series of levels that teach the fundamentals of the Linux command li
 
 *(list expanded level by level)*
 
-## 🎯 Why this repo
+## Why this repo
 
 I built this project during a self-directed study period between semesters, using the time to strengthen my Linux and security fundamentals ahead of my coursework. I think it's worth being upfront about that: it shows I take initiative to keep learning outside of class, and hopefully it's a useful reference for others who are just starting out and want proof that you don't need to wait until you're "advanced" to build something concrete.
 
