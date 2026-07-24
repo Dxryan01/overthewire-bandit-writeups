@@ -1,4 +1,4 @@
-**Bandit Level 03 → Level 04**
+**Bandit Level 02 → Level 03**
 
 **Goal**: find the password stored in a file whose name contains spaces, in the home directory.
 
