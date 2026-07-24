@@ -1,4 +1,4 @@
-**Bandit Level 00 → Level 01**
+**Bandit Level 00**
 
 **Goal**: log into the Bandit server for the first time via SSH.
 
