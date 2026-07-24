@@ -15,7 +15,8 @@ Connect to the Bandit server via SSH using the credentials provided on the game'
 The Bandit intro page gives the host, port, username, and initial password needed to connect. On Linux, SSH is available by default from the terminal, so no extra client is needed.
 
 ```bash
-# -l specifies the login user, -p specifies the port (2220 instead of the default 22)
+# -p specifies the port (2220 instead of the default 22)
+# the username is given directly via user@host syntax
 $ ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
 
