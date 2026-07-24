@@ -15,6 +15,7 @@ Bandit is a series of levels that teach the fundamentals of the Linux command li
 | Level 00 | SSH connection basics | [→](./level-00/README.md) |
 | Level 00-01 | Reading a plain file | [→](./level-00-01/README.md) |
 | Level 01-02 | Reading a dash-named file | [→](./level-01-02/README.md) |
+| Level 02-03 | Reading a file with spaces | [→](./level-02-03/README.md) |
 
 *(Table updated as I progress through the levels)*
 
