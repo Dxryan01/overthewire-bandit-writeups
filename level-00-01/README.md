@@ -1,4 +1,4 @@
-**Bandit Level 01 → Level 02**
+**Bandit Level 00 → Level 01**
 
 **Goal**: find the password for the next level, stored somewhere in the home directory.
 
