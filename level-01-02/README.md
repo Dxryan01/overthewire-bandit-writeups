@@ -1,4 +1,4 @@
-**Bandit Level 02 → Level 03**
+**Bandit Level 01 → Level 02**
 
 **Goal**: find the password stored in a file called `-` in the home directory.
 
