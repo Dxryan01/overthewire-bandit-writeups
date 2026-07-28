@@ -6,7 +6,7 @@ Personal writeups for the [Bandit](https://overthewire.org/wargames/bandit/) war
 
 ## About
 
-Bandit is a series of levels that teach the fundamentals of the Linux command line (permissions, file searching, encoding, basic networking, etc.). Each writeup here documents: the level's objective, the concepts practiced, the approach taken, and a short personal takeaway.
+Bandit is a series of levels that teach the fundamentals of the Linux command line (permissions, file searching, encoding, basic networking, etc.). Each writeup here follows the same structure: the level's Goal, the Reasoning behind the approach, the Solution command(s), and a short Lesson taken from it.
 
 ## Levels
 
