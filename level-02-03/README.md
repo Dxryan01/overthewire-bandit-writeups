@@ -1,14 +1,14 @@
 **Bandit Level 02 → Level 03**
 
-**Goal**: find the password stored in a file whose name contains spaces, in the home directory.
+**Goal**: find the password stored in a file whose name contains spaces and starts/ends with double dashes, in the home directory.
 
-**Reasoning**: a filename with spaces breaks the usual `cat filename` syntax, since the shell treats each space as a separator between arguments. The whole name needs to be treated as a single argument, either by quoting it or escaping each space individually.
+**Reasoning**: two problems combine here. Spaces in the filename break the usual `cat filename` syntax, since the shell treats each space as a separator between arguments — the name needs to be quoted or escaped. On top of that, the name starts with `--`, which gets misread as the start of a command option rather than part of a filename — same issue as the previous level, solved by prefixing with `./`.
 
-**Solution**: `cat "spaces in this filename"`
+**Solution**: `cat ./'--spaces in this filename--'`
 
-**Alternative** : `cat spaces\ in\ this\ filename` (escaping each space individually instead of quoting the whole name)
+**Alternative**: `cat ./"--spaces in this filename--"` (double quotes work the same way here)
 
-**Lesson**: quoting the full filename is cleaner than escaping every space one by one, espacially as filenames get longer.
+**Lesson**: when a filename combines multiple "shell traps" (leading dashes AND spaces), the fixes stack — `./` to neutralize the dashes, quotes to handle the spaces. Quoting alone or `./` alone isn't enough on its own here.
 
 ---
 🔒 Password not disclosed — try it yourself on [overthewire.org](https://overthewire.org/wargames/bandit/)
