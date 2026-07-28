@@ -6,16 +6,17 @@ Personal writeups for the [Bandit](https://overthewire.org/wargames/bandit/) war
 
 ## About
 
-Bandit is a series of levels that teach the fundamentals of the Linux command line (permissions, file searching, encoding, basic networking, etc.). Each writeup here follows the same structure: the level's Goal, the Reasoning behind the approach, the Solution command(s), and a short Lesson taken from it.
+Bandit is a series of levels that teach the fundamentals of the Linux command line (permissions, file searching, encoding, basic networking, etc.). Each writeup here follows the same structure: the level's Goal, the Reasoning behind the approach, the Solution command(s), and a short Lesson taken from it. For levels involving a genuine multi-step process, the Solution section may list numbered steps instead of a single command.
 
 ## Levels
 
 | Level | Main topic | Writeup |
 |-------|------------|---------|
-| Level 00 | SSH connection basics | [→](./level-00/README.md) |
-| Level 00-01 | Reading a plain file | [→](./level-00-01/README.md) |
-| Level 01-02 | Reading a dash-named file | [→](./level-01-02/README.md) |
-| Level 02-03 | Reading a file with spaces | [→](./level-02-03/README.md) |
+| Level 0 | SSH connection basics | [→](./level-00/README.md) |
+| Level 0 → Level 1 | Reading a plain file | [→](./level-00-01/README.md) |
+| Level 1 → Level 2 | Reading a dash-named file | [→](./level-01-02/README.md) |
+| Level 2 → Level 3 | Reading a file with spaces | [→](./level-02-03/README.md) |
+| Level 3 → Level 4 | Hidden files | [→](./level-03-04/README.md) |
 
 *(Table updated as I progress through the levels)*
 
