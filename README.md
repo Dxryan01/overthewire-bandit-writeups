@@ -30,10 +30,10 @@ Bandit is a series of levels that teach the fundamentals of the Linux command li
 
 ## Shell concepts covered so far
 
--> Quoting/escaping (`"..."`, `\ `)
--> Relative path prefixing (`./`)
--> stderr redirection (`2>/dev/null`)
--> Negation in `find` (`-not` / `!`)
+- Quoting/escaping (`"..."`, `\ `)
+- Relative path prefixing (`./`)
+- stderr redirection (`2>/dev/null`)
+- Negation in `find` (`-not` / `!`)
 
 *(list expanded level by level)*
 
