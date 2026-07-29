@@ -20,12 +20,17 @@ Bandit is a series of levels that teach the fundamentals of the Linux command li
 | Level 4 → Level 5 | Identifying file content types | [→](./level-04-05/README.md) |
 | Level 5 → Level 6 | Searching by criteria (find) | [→](./level-05-06/README.md) |
 | Level 6 → Level 7 | Searching the whole filesystem (find) | [→](./level-06-07/README.md) |
+| Level 7 → Level 8 | Searching text with a whole keyword (grep) | [→](./level-07-08/README.md) |
 
 *(Table updated as I progress through the levels)*
 
 ## Tools / commands covered so far
 
-`man`, `ssh`, `whoami`, `pwd`, `ls`, `cat`, `file`, `find`
+`man`, `ssh`, `whoami`, `pwd`, `ls`, `cat`, `file`, `find`, `grep`, `wc`
+
+## Shell concepts covered so far
+
+Quoting/escaping (`"..."`, `\ `), relative path prefixing (`./`), stderr redirection (`2>/dev/null`), negation in `find` (`-not` / `!`)
 
 *(list expanded level by level)*
 
