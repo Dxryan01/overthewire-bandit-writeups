@@ -22,12 +22,13 @@ Bandit is a series of levels that teach the fundamentals of the Linux command li
 | Level 6 → Level 7 | Searching the whole filesystem (find) | [→](./level-06-07/README.md) |
 | Level 7 → Level 8 | Searching text with a whole keyword (grep) | [→](./level-07-08/README.md) |
 | Level 8 → Level 9 | Finding the unique line in duplicated data (sort/uniq) | [→](./level-08-09/README.md) |
+| Level 9 → Level 10 | Extracting readable text from binary data (strings) | [→](./level-09-10/README.md) |
 
 *(Table updated as I progress through the levels)*
 
 ## Tools / commands covered so far
 
-`man`, `ssh`, `whoami`, `pwd`, `ls`, `cat`, `file`, `find`, `grep`, `wc`, `sort`, `uniq`
+`man`, `ssh`, `whoami`, `pwd`, `ls`, `cat`, `file`, `find`, `grep`, `wc`, `sort`, `uniq`, `strings`
 
 ## Shell concepts covered so far
 
