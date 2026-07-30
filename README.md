@@ -25,12 +25,13 @@ Bandit is a series of levels that teach the fundamentals of the Linux command li
 | Level 9 → Level 10 | Extracting readable text from binary data (strings) | [→](./level-09-10/README.md) |
 | Level 10 → Level 11 | Decoding Base64 data | [→](./level-10-11/README.md) |
 | Level 11 → Level 12 | Decoding ROT13 (tr) | [→](./level-11-12/README.md) |
+| Level 12 → Level 13 | Multi-format decompression chain (file/gzip/bzip2/tar) | [→](./level-12-13/README.md) |
 
 *(Table updated as I progress through the levels)*
 
 ## Tools / commands covered so far
 
-`man`, `ssh`, `whoami`, `pwd`, `ls`, `cat`, `file`, `find`, `grep`, `wc`, `sort`, `uniq`, `strings`, `base64`, `tr`
+`man`, `ssh`, `whoami`, `pwd`, `ls`, `cat`, `file`, `find`, `grep`, `wc`, `sort`, `uniq`, `strings`, `base64`, `tr`, `xxd`, `gunzip`, `bunzip2`, `tar`
 
 ## Shell concepts covered so far
 
