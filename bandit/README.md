@@ -37,12 +37,13 @@ Bandit is a series of levels that teach the fundamentals of the Linux command li
 | Level 21 → Level 22 | Investigating a cron job's privileges | [→](./level-21-22/README.md) |
 | Level 22 → Level 23 | Simulating another user's script logic (md5sum) | [→](./level-22-23/README.md) |
 | Level 23 → Level 24 | Exploiting a cron job's execution privileges | [→](./level-23-24/README.md) |
+| Level 24 → Level 25 | Parallel brute-forcing (xargs -P) | [→](./level-24-25/README.md) |
 
 *(Table updated as I progress through the levels)*
 
 ## Tools / commands covered so far
 
-`man`, `ssh`, `whoami`, `pwd`, `ls`, `cat`, `file`, `find`, `grep`, `wc`, `sort`, `uniq`, `strings`, `base64`, `tr`, `xxd`, `gunzip`, `bunzip2`, `tar`, `scp`, `chmod`, `nc`, `openssl`, `nmap`, `diff`, `md5sum`
+`man`, `ssh`, `whoami`, `pwd`, `ls`, `cat`, `file`, `find`, `grep`, `wc`, `sort`, `uniq`, `strings`, `base64`, `tr`, `xxd`, `gunzip`, `bunzip2`, `tar`, `scp`, `chmod`, `nc`, `openssl`, `nmap`, `diff`, `md5sum`, `seq`, `xargs`, `watch`
 
 ## Shell concepts covered so far
 
@@ -53,6 +54,8 @@ Bandit is a series of levels that teach the fundamentals of the Linux command li
 - Setuid binaries
 - `nc` in listening/server mode (`-l`) vs. client mode
 - Cron jobs running with elevated privileges (`/etc/cron.d/`)
+- Parallel execution with `xargs -P`
+- `for` loops for iterating over a list of values
 
 *(list expanded level by level)*
 
