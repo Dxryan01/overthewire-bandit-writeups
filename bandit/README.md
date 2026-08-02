@@ -26,12 +26,23 @@ Bandit is a series of levels that teach the fundamentals of the Linux command li
 | Level 10 → Level 11 | Decoding Base64 data | [→](./level-10-11/README.md) |
 | Level 11 → Level 12 | Decoding ROT13 (tr) | [→](./level-11-12/README.md) |
 | Level 12 → Level 13 | Multi-format decompression chain (file/gzip/bzip2/tar) | [→](./level-12-13/README.md) |
+| Level 13 → Level 14 | Key-based SSH authentication (scp/chmod) | [→](./level-13-14/README.md) |
+| Level 14 → Level 15 | Submitting data to a local port (nc) | [→](./level-14-15/README.md) |
+| Level 15 → Level 16 | SSL/TLS connection to a local port (openssl s_client) | [→](./level-15-16/README.md) |
+| Level 16 → Level 17 | Scanning a port range for SSL services (nmap) | [→](./level-16-17/README.md) |
+| Level 17 → Level 18 | Comparing two files (diff) | [→](./level-17-18/README.md) |
+| Level 18 → Level 19 | Running a single remote command over SSH | [→](./level-18-19/README.md) |
+| Level 19 → Level 20 | Setuid binaries | [→](./level-19-20/README.md) |
+| Level 20 → Level 21 | Two-way communication over a local port (nc/suconnect) | [→](./level-20-21/README.md) |
+| Level 21 → Level 22 | Investigating a cron job's privileges | [→](./level-21-22/README.md) |
+| Level 22 → Level 23 | Simulating another user's script logic (md5sum) | [→](./level-22-23/README.md) |
+| Level 23 → Level 24 | Exploiting a cron job's execution privileges | [→](./level-23-24/README.md) |
 
 *(Table updated as I progress through the levels)*
 
 ## Tools / commands covered so far
 
-`man`, `ssh`, `whoami`, `pwd`, `ls`, `cat`, `file`, `find`, `grep`, `wc`, `sort`, `uniq`, `strings`, `base64`, `tr`, `xxd`, `gunzip`, `bunzip2`, `tar`
+`man`, `ssh`, `whoami`, `pwd`, `ls`, `cat`, `file`, `find`, `grep`, `wc`, `sort`, `uniq`, `strings`, `base64`, `tr`, `xxd`, `gunzip`, `bunzip2`, `tar`, `scp`, `chmod`, `nc`, `openssl`, `nmap`, `diff`, `md5sum`
 
 ## Shell concepts covered so far
 
@@ -39,6 +50,9 @@ Bandit is a series of levels that teach the fundamentals of the Linux command li
 - Relative path prefixing (`./`)
 - stderr redirection (`2>/dev/null`)
 - Negation in `find` (`-not` / `!`)
+- Setuid binaries
+- `nc` in listening/server mode (`-l`) vs. client mode
+- Cron jobs running with elevated privileges (`/etc/cron.d/`)
 
 *(list expanded level by level)*
 
