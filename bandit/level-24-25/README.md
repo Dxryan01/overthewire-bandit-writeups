@@ -18,6 +18,7 @@ Running several submissions in parallel instead of one-by-one cuts that time dow
    ```
 3. While it runs, monitor progress from a second terminal without interrupting the first: `watch -n 2 wc -l /tmp/dir/results.txt` (each attempt writes 2 lines, so line count ÷ 2 ≈ combinations tried so far)
 4. Once done, filter out the repeated failure messages to isolate the successful response: `grep -E -v "Wrong|I am the" /tmp/dir/results.txt`
+
    **Alternative**: `grep -A 2 "Correct" /tmp/dir/results.txt` (searches for the line containing "Correct" and also shows the 2 lines right after it, where the next password appears — a more intuitive way to spot the result without needing to exclude the failure messages explicitly; note that `grep` always needs a search pattern as an argument, not just a filename)
 
 **Lesson**: pushing too many simultaneous connections at once (a first attempt used 50 in parallel) got the whole SSH session disconnected by the server's own anti-abuse protection — a much lower degree of parallelism (around 5) is safer on a shared training server like this one, even though it means accepting a longer runtime as a trade-off.
