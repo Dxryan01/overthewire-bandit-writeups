@@ -38,6 +38,7 @@ Bandit is a series of levels that teach the fundamentals of the Linux command li
 | Level 22 → Level 23 | Simulating another user's script logic (md5sum) | [→](./level-22-23/README.md) |
 | Level 23 → Level 24 | Exploiting a cron job's execution privileges | [→](./level-23-24/README.md) |
 | Level 24 → Level 25 | Parallel brute-forcing (xargs -P) | [→](./level-24-25/README.md) |
+| Level 25 → Level 26 | Escaping a restricted shell (more/vi)  | [→](./level-25-26/README.md) |
 
 *(Table updated as I progress through the levels)*
 
@@ -56,6 +57,7 @@ Bandit is a series of levels that teach the fundamentals of the Linux command li
 - Cron jobs running with elevated privileges (`/etc/cron.d/`)
 - Parallel execution with `xargs -P`
 - `for` loops for iterating over a list of values
+- Restricted-shell escape via a pager/editor (`more` → `v` → `vi` → `:shell`)
 
 *(list expanded level by level)*
 
