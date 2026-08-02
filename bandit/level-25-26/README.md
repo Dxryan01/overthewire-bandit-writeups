@@ -9,8 +9,8 @@
 2. Shrink the terminal window (few visible lines) before connecting, so the pager doesn't display everything at once
 3. Log in as `bandit26` with the key: `ssh bandit26@bandit.labs.overthewire.org -p 2220 -i ./bandit26.sshkey` — the session drops into the `more` pager and stops at a `--More--` prompt
 4. While at that prompt, press `v` to open the file in `vi`
-5. Inside `vi`, force it to use a real shell and launch it: `:set shell=/bin/bash` then `:shell`
-6. From the resulting shell, `ls` reveals `bandit27-do` in the home directory — the same setuid mechanism as `bandit20-do`, giving `bandit27`'s password: `./bandit27-do cat /etc/bandit_pass/bandit27`
+5. Inside `vi`, force it to use a real shell and launch it: `:set shell=/bin/bash` then `:shell` — this drops into a real shell as `bandit26` (`bandit26@bandit:~$`), where `bandit26`'s own password can also be retrieved for direct reconnection later, same pattern as with `bandit14` and `bandit17`: `cat /etc/bandit_pass/bandit26`
+6. From this shell, `ls` reveals `bandit27-do` in the home directory — the same setuid mechanism as `bandit20-do`, giving `bandit27`'s password: `./bandit27-do cat /etc/bandit_pass/bandit27`
 
 **Lesson**: when direct shell access is restricted, secondary features of allowed programs (a pager's "open in editor" key, an editor's own shell-escape command) can still provide a way out — this kind of restricted-shell escape is a well-known, documented pattern in security/CTF contexts (referenced on sites like GTFOBins), not something to reinvent from scratch each time.
 
