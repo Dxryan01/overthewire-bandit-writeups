@@ -9,6 +9,8 @@
 2. Reproduce the script's hash computation, substituting `bandit23` directly instead of using `whoami`: `echo I am user bandit23 | md5sum | cut -d ' ' -f 1`
 3. Read the resulting file: `cat /tmp/<computed_hash>`
 
+**Alternative**: `cat /tmp/$(echo I am user bandit23 | md5sum | cut -d ' ' -f 1)` (combines steps 2 and 3 into a single line — the `$(...)` substitution computes the hash inline and feeds it directly as the filename to `cat`, instead of storing it in an intermediate variable first)
+
 **Lesson**: a script that uses `whoami` to build a path behaves differently depending on who runs it — reading such a script only tells you the *logic*, not the actual value it produces; the value still has to be computed for the *specific account the script actually runs as*, not the account inspecting it.
 
 ---
