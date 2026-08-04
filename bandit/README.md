@@ -42,6 +42,7 @@ Bandit is a series of levels that teach the fundamentals of the Linux command li
 | Level 26 → Level 27 | Setuid binary (again)  | [→](./level-26-27/README.md) |
 | Level 27 → Level 28 | Cloning a Git repo over SSH with a custom port  | [→](./level-27-28/README.md) |
 | Level 28 → Level 29 | Recovering deleted data from Git history  | [→](./level-28-29/README.md) |
+| Level 29 → Level 30 | Exploring Git branches | [→](./level-29-30/README.md) |
 
 *(Table updated as I progress through the levels)*
 
