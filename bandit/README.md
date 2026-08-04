@@ -40,12 +40,14 @@ Bandit is a series of levels that teach the fundamentals of the Linux command li
 | Level 24 → Level 25 | Parallel brute-forcing (xargs -P) | [→](./level-24-25/README.md) |
 | Level 25 → Level 26 | Escaping a restricted shell (more/vi)  | [→](./level-25-26/README.md) |
 | Level 26 → Level 27 | Setuid binary (again)  | [→](./level-26-27/README.md) |
+| Level 27 → Level 28 | Cloning a Git repo over SSH with a custom port  | [→](./level-27-28/README.md) |
+| Level 28 → Level 29 | Recovering deleted data from Git history  | [→](./level-28-29/README.md) |
 
 *(Table updated as I progress through the levels)*
 
 ## Tools / commands covered so far
 
-`man`, `ssh`, `whoami`, `pwd`, `ls`, `cat`, `file`, `find`, `grep`, `wc`, `sort`, `uniq`, `strings`, `base64`, `tr`, `xxd`, `gunzip`, `bunzip2`, `tar`, `scp`, `chmod`, `nc`, `openssl`, `nmap`, `diff`, `md5sum`, `seq`, `xargs`, `watch`
+`man`, `ssh`, `whoami`, `pwd`, `ls`, `cat`, `file`, `find`, `grep`, `wc`, `sort`, `uniq`, `strings`, `base64`, `tr`, `xxd`, `gunzip`, `bunzip2`, `tar`, `scp`, `chmod`, `nc`, `openssl`, `nmap`, `diff`, `md5sum`, `seq`, `xargs`, `watch`, `git`
 
 ## Shell concepts covered so far
 
