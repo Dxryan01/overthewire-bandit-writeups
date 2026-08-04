@@ -43,6 +43,8 @@ Bandit is a series of levels that teach the fundamentals of the Linux command li
 | Level 27 → Level 28 | Cloning a Git repo over SSH with a custom port  | [→](./level-27-28/README.md) |
 | Level 28 → Level 29 | Recovering deleted data from Git history  | [→](./level-28-29/README.md) |
 | Level 29 → Level 30 | Exploring Git branches | [→](./level-29-30/README.md) |
+| Level 30 → Level 31 | Discovering hidden Git tags | [→](./level-30-31/README.md) |
+| Level 31 → Level 32 | Overriding .gitignore to force-push a file | [→](./level-31-32/README.md) |
 
 *(Table updated as I progress through the levels)*
 
@@ -62,6 +64,7 @@ Bandit is a series of levels that teach the fundamentals of the Linux command li
 - Parallel execution with `xargs -P`
 - `for` loops for iterating over a list of values
 - Restricted-shell escape via a pager/editor (`more` → `v` → `vi` → `:shell`)
+- `.gitignore` blocking staged files silently (bypassed with `git add -f`)
 
 *(list expanded level by level)*
 
