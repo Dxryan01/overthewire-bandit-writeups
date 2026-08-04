@@ -5,7 +5,7 @@
 **Reasoning**: the same approach as the previous level — checking the current README, then comparing commits with `git diff` — only reveals a placeholder password (`<no passwords in production!>`) and a username change, a dead end. Git repositories aren't limited to a single line of history, though: branches let separate lines of work exist in parallel, isolated from the main one until merged. Since both obvious angles (current content, commit history on the current branch) were exhausted, checking what other branches exist is the natural next thing to rule in or out — and branch names like `dev` are a common place for content not meant for the "production" branch.
 
 **Solution**:
-1. Clone the repo on your own local machine then navigate to the cloned repertory : `git clone ssh://bandit28-git@bandit.labs.overthewire.org:2220/home/bandit28-git/repo` → `cd repo`
+1. Clone the repo on your own local machine then navigate to the cloned repertory : `git clone ssh://bandit29-git@bandit.labs.overthewire.org:2220/home/bandit29-git/repo` → `cd repo`
 2. Confirm the current branch's history doesn't contain a real password: `git log` → `git diff <commit1> <commit2>`
 3. List all branches, including remote ones: `git branch -a` → reveals `dev` and `sploits-dev` alongside `master`
 4. Switch to the `dev` branch: `git checkout dev`
