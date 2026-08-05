@@ -45,6 +45,8 @@ Bandit is a series of levels that teach the fundamentals of the Linux command li
 | Level 29 → Level 30 | Exploring Git branches | [→](./level-29-30/README.md) |
 | Level 30 → Level 31 | Discovering hidden Git tags | [→](./level-30-31/README.md) |
 | Level 31 → Level 32 | Overriding .gitignore to force-push a file | [→](./level-31-32/README.md) |
+| Level 32 → Level 33 | Escaping an input-restricted shell ($0) | [→](./level-32-33/README.md) |
+| Level 33 → Level 34 | ... | ... |
 
 *(Table updated as I progress through the levels)*
 
@@ -65,6 +67,7 @@ Bandit is a series of levels that teach the fundamentals of the Linux command li
 - `for` loops for iterating over a list of values
 - Restricted-shell escape via a pager/editor (`more` → `v` → `vi` → `:shell`)
 - `.gitignore` blocking staged files silently (bypassed with `git add -f`)
+- Shell variable expansion (`$0`)
 
 *(list expanded level by level)*
 
