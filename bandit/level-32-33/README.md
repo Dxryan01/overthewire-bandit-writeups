@@ -11,5 +11,6 @@
 4. Read the file containing `bandit33`'s password : `cat /etc/bandit_pass/bandit33`
 
 **Lesson**: Naive input transformations are not a security mechanism. Understanding how the shell interprets variables and expands commands can reveal alternative execution paths that bypass such restrictions.
+
 ---
 🔒 Password not disclosed — try it yourself on overthewire.org
